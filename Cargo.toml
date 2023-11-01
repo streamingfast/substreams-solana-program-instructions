@@ -12,16 +12,19 @@ keywords = [ "substreams", "streamingfast", "instruction", "solana", "program"]
 categories = ["api-bindings", "external-ffi-bindings", "wasm"]
 rust-version = "1.60"
 
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 [lib]
+crate-type = ["cdylib"]
 proc-macro = true
 
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 [dependencies]
-substreams-solana = "0.10.2"
-substreams-solana-core = "0.10.2"
-substreams-solana-macro = "0.10.2"
+substreams = "0.5"
+substreams-solana-core = "0.11"
+substreams-solana-macro = "0.11"
 
-[patch.crates-io]
-substreams-solana = { path = "/Users/cbillett/devel/sf/substreams-solana/substreams-solana"}
-substreams-solana-core = { path = "/Users/cbillett/devel/sf/substreams-solana/core"}
-substreams-solana-macro = { path = "/Users/cbillett/devel/sf/substreams-solana/macro"}
+anyhow = "1.0.72"
+num_enum = "0.7.0"
+
+#[patch.crates-io]
+#substreams-solana-core = { path = "/Users/cbillett/devel/sf/substreams-solana/core"}
+#substreams-solana-macro = { path = "/Users/cbillett/devel/sf/substreams-solana/macro"}
