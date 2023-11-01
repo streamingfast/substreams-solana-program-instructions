@@ -3,5 +3,5 @@ target
 /.idea/modules.xml
 /.idea/substreams-solana-program-instructions.iml
 /.idea/vcs.xml
-/build/.env.release
-/build/.release_notes.md
+build
+
