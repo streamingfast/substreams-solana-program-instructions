@@ -4,4 +4,4 @@ target
 /.idea/substreams-solana-program-instructions.iml
 /.idea/vcs.xml
 build
-
+dist
