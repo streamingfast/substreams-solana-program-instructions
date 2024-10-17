@@ -1,5 +1,3 @@
-## Next
-
 ## [v0.2.0](https://github.com/streamingfast/substreams-solana/releases/tag/0.2.0)
 
 * Bump substreams to 0.6
