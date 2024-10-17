@@ -1,6 +1,6 @@
 [package]
 name = "substreams-solana-program-instructions"
-version = "0.1.1"
+version = "0.2.0"
 edition = "2021"
 description = "Substreams Solana program instructions"
 authors = ["StreamingFast Contributors <team@streamingfast.io>"]
@@ -16,7 +16,7 @@ rust-version = "1.60"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 [dependencies]
-substreams = "0.5"
+substreams = "0.6.0"
 anyhow = "1.0.72"
 num_enum = "0.7.0"
 
