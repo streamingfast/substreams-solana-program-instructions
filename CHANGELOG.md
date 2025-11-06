@@ -1,3 +1,6 @@
+## [v0.3.0](https://github.com/streamingfast/substreams-solana/releases/tag/0.3.0)
+* Bump substreams to 0.7.0
+
 ## [v0.2.1](https://github.com/streamingfast/substreams-solana/releases/tag/0.2.0)
 
 * Bump substreams to 0.7.0
