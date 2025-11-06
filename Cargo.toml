@@ -16,7 +16,7 @@ rust-version = "1.60"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 [dependencies]
-substreams = "0.6.0"
+substreams = "0.7.0"
 anyhow = "1.0.72"
 num_enum = "0.7.0"
 
