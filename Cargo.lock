@@ -520,7 +520,7 @@ dependencies = [
 
 [[package]]
 name = "substreams-solana-program-instructions"
-version = "0.2.0"
+version = "0.2.1"
 dependencies = [
  "anyhow",
  "num_enum",
