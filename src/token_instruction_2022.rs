@@ -2,9 +2,8 @@
 
 #![allow(deprecated)] // needed to avoid deprecation warning when generating serde implementation for TokenInstruction
 
-use anyhow::anyhow;
+use anyhow::{anyhow, Error};
 use {
-    substreams::{errors::Error},
     num_enum::{IntoPrimitive, TryFromPrimitive},
     crate::{transfer_fee_instruction::TransferFeeInstruction},
     std::{
