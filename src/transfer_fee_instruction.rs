@@ -1,6 +1,5 @@
-use anyhow::anyhow;
+use anyhow::{anyhow, Error};
 use {
-    substreams::errors::Error,
     crate::{token_instruction_2022::TokenInstruction},
 };
 
