@@ -1,3 +1,9 @@
+## Unreleased
+
+### Deprecated
+
+* The crate is deprecated. Depend on the standard Solana program crates (`spl-token`, `spl-token-2022`) directly, and enable the `wasm-bindgen-shims` runtime extension in your Substreams manifest. See `README.md` for migration details.
+
 ## [v0.3.0](https://github.com/streamingfast/substreams-solana/releases/tag/0.3.0)
 * Bump substreams to 0.7.0
 
